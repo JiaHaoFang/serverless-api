@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "hexo clean && hexo g -d", // 构建文档
+    "build": "hexo clean && hexo g -d",
     "elog:init": "elog init",
-    "sync:local": "elog sync -e .elog.env", // 本地同步时需要从env中取值
-    "sync": "elog sync", // 进行同步
+    "sync:local": "elog sync -e .elog.env",
+    "sync": "elog sync",
     "clean": "elog clean"
   },
   "keywords": [],
