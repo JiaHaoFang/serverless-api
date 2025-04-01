@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "hexo clean && hexo g -d",
+    "build": "hexo deploy",
     "elog:init": "elog init",
     "sync:local": "elog sync -e .elog.env",
     "sync": "elog sync",
